@@ -17,12 +17,16 @@
     <section>
         <div class="card">
             <div class="product-image-block">
-                <img class="main-image" src="./assets/images/main-image.svg" alt="main-image">
-                <div class="preview selected">
-                    <img src="./assets/images/image-1-preview.svg" alt="image-1-preview">
+                <div class="main-image-wrapper">
+                    <img class="main-image" src="./assets/images/main-image.svg" alt="main-image">
                 </div>
-                <div class="preview">
-                    <img src="./assets/images/image-2-preview.svg" alt="image-2-preview">
+                <div class="previews-wrapper">
+                    <div class="preview selected">
+                        <img src="./assets/images/image-1-preview.svg" alt="image-1-preview">
+                    </div>
+                    <div class="preview">
+                        <img src="./assets/images/image-2-preview.svg" alt="image-2-preview">
+                    </div>
                 </div>
             </div>
             <div class="product-info-block">
@@ -33,8 +37,8 @@
                     created out of a deep respect for Royal British history and traditions</p>
                 <div class="colors">
                     <H2 class="title">Color options</H2>
-                    <ul>
-                        <li class="selected"> 
+                    <ul class="color-items">
+                        <li class="selected">
                             <div class="circle blue"></div>
                         </li>
                         <li>
@@ -51,8 +55,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div>
+            <div class="wrapper">
                 <div>
                     <h2 class="title">Quantity</h2>
                     <select class="quantity" name="quantity" id="quantity">
@@ -71,5 +74,4 @@
         </div>
     </section>
 </body>
-
 </html>
